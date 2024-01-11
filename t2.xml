@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+  <test thread-count="5" name="Test">
+    <classes>
+		 <class name="smoke.Login_Admin"/>
+      <class name="smoke.CreateFac"/>
+      <class name="smoke.Dp_Excel_U_Validation"/>
+     
+   
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
