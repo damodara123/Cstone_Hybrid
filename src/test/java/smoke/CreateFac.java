@@ -19,7 +19,7 @@ public class CreateFac extends Create_Faculty {
 	public void loadapp() throws IOException {
 		d= lauch();
 		Login(d, "Capstone", "123456");
-		
+		// this is for testing
 		
 	}
 @BeforeMethod
