@@ -11,4 +11,5 @@ public class Home extends AdminLogin {
 	public By CreateFacultyLink = By.xpath("//a[@href='/capstoneadmin/create_faculty/']");
 	
 	public By ProjectMgmtLink = By.partialLinkText("Project Management");
+	public By logOutBtn=By.xpath("//p[contains(.,'logout')]");
 }
