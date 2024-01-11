@@ -20,9 +20,11 @@ public class Login_Admin extends Home {
 		d = lauch();
 	}
 	@Test
-	public void login_Validation() {
+	public void login_Validation() throws InterruptedException {
 		Login(d, "Capstone", "123456");
-		//Assert.assertEquals(display(d, dashboard), true);
+		Thread.sleep(5000);
+		Assert.assertEquals(display(d, dashboard), true);
+		Click(d,logOutBtn);
 		//Assert.assertEquals(display(d, dashboard), true);
 	}
 	@AfterClass
